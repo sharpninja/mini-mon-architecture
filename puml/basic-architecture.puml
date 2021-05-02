@@ -1,0 +1,23 @@
+@startuml
+title Basic Mini-Monolith Architecture
+
+together apps {
+    component "Application A" as appA
+    component "Application B" as appB
+}
+
+together services {
+    component "Domain A Services" as domA
+    component "Domain B Services" as domB
+}
+
+appA --> domA
+appB --> domA
+appB --> domB
+
+database "Data Store" as data
+
+domA --> data
+domB --> data
+
+@enduml

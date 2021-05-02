@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"plantuml.server": "https://www.plantuml.com/plantuml"
+	},
+	"recommendations": [
+        "jebbs.plantuml",
+        "yzhang.markdown-all-in-one"
+    ]
+}
