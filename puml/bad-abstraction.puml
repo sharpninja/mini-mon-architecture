@@ -1,0 +1,13 @@
+@startuml "Component"
+title Improper Domain Breakdown
+
+component "Cart Service" as domA
+component "Data Service" as domB
+
+domA -> domB : Transactional Write
+
+database "SQL Server" as sql
+
+domB -> sql : Transactional Write
+
+@enduml

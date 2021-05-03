@@ -5,7 +5,12 @@
 		}
 	],
 	"settings": {
-		"plantuml.server": "https://www.plantuml.com/plantuml"
+		"plantuml.server": "https://www.plantuml.com/plantuml",
+		"cSpell.words": [
+			"Microservice",
+			"Microservices",
+			"sdlc"
+		]
 	},
 	"recommendations": [
         "jebbs.plantuml",

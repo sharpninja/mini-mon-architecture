@@ -1,0 +1,7 @@
+@startuml "Use Cases"
+title Save Cart Use Cases
+
+actor "User" as user
+user -> (Save Cart)
+(Write-Data) --|> (Save Cart)
+@enduml

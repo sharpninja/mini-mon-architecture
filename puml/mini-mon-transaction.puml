@@ -1,0 +1,7 @@
+@startuml "Mini-Mon Transaction"
+
+database "SQL Server" as sql
+[Mini-Mon Cart Service] -> sql : ACID Transaction
+[Browser] -> [Mini-Mon Cart Service] : Save Cart API
+
+@enduml
